@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>罗宇鹏-个人简历</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_908787_kekc8lrkg7e.css">
+    <script src="//at.alicdn.com/t/font_1201363_jllihqp5nnb.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font: 14px/1.5 Arial;
+            color: #666;
+            background: #efefef;
+        }
+        .layout {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #page {
+            display: flex;
+            flex-wrap: wrap;
+            background: #fff;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        header {
+
+            background: #3c3c3c;
+            width: 100%;
+            text-align: center;
+            padding: 60px 0 10px 0;
+            color: #fff;
+        }
+
+        header>h1 {
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+
+        header>p {
+            font-size: 14px;
+            color: #aaa;
+            margin: 0;
+        }
+
+        aside {
+            width: 240px;
+            border-right: 1px solid #ccc;
+            position: relative;
+            padding-top: 100px;
+        }
+
+        aside .avatar {
+            text-align: center;
+            position: absolute;
+            top: -80px;
+            width: 100%;
+        }
+
+        aside .avatar img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            background: #ccc;
+        }
+
+
+        section {
+            border-bottom:1px solid #ccc;
+            margin: 30px 20px 0 20px;
+            padding-bottom: 20px;
+        }
+
+        section h2 {
+            color: #5c99ca;
+            font-size: 16px;
+        }
+
+        section h3 {
+            font-size: 16px;
+            color: #333;
+        }
+
+        section a {
+            color: #333;
+        }
+
+
+        .personal .item span:first-child {
+            display: inline-block;
+            width: 80px;
+        }
+
+        .personal .item span:last-child::before {
+            content: ':';
+            margin-right: 10px;
+        }
+
+        .skills .item {
+            display: flex;
+            align-items: center;
+        }
+
+        .skills  .keyword {
+            width: 80px;
+        }
+
+        .skills .rule {
+            flex: 1;
+            height: 4px;
+            background: #ccc;
+        }
+
+        .skills .rule i {
+            display: block;
+            width: 10%;
+            height: 4px;
+            background: #000;
+        }
+
+        .contact .item {
+            display: flex;
+            align-items: center;
+        }
+        .contact svg {
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+        }
+
+        .contact .item span {
+            margin-left: 10px;
+        }
+
+        main {
+            flex: 1;
+            min-height: calc(100vh - 162px);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding-top: 20px;
+                padding-bottom: 90px;
+            }
+            aside {
+                width: 100%;
+                padding-top: 0px;
+            }
+            aside .avatar img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .icon {
+            width: 1em; height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+<div class="layout" id="page">
+    <header>
+        <h1>罗宇鹏</h1>
+        <p>应聘前端工程师</p>
+    </header>
+    <aside>
+        <div class="avatar">
+            <img src="https://i.loli.net/2019/05/20/5ce2826a8432759551.jpg" alt="" >
+        </div>
+
+        <section>
+            <h2>基础信息</h2>
+            <div class="detail personal">
+                <div class="item">
+                    <span>学历</span>
+                    <span>本科</span>
+                </div>
+                <div class="item">
+                    <span>意向薪资</span>
+                    <span>7~9k</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>专业技能</h2>
+            <div class="detail skills">
+                <div class="item">
+                    <span class="keyword">HTML5</span>
+                    <span class="rule"><i style="width: 70%"></i></span>
+                </div>
+                <div class="item">
+                    <span class="keyword">CSS3</span>
+                    <span class="rule"><i style="width: 75%"></i></span>
+                </div>
+                <div class="item">
+                    <span class="keyword">JavaScript</span>
+                    <span class="rule"><i style="width: 60%"></i></span>
+                </div>
+                <div class="item">
+                    <span class="keyword">jQuery</span>
+                    <span class="rule"><i style="width: 70%"></i></span>
+                </div>
+                <div class="item">
+                    <span class="keyword">Vue</span>
+                    <span class="rule"><i style="width: 55%"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>联系方式</h2>
+            <div class="detail contact">
+                <div class="item">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-shouji"></use>
+                    </svg>
+                    <span>158-7652-5833</span>
+                </div>
+                <div class="item">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-youxiang"></use>
+                    </svg>
+                    <span>461935859@qq.com</span>
+                </div>
+                <div class="item">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg>
+                    <span>luo_yp0529</span>
+                </div>
+                <div class="item">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-chengshi1"></use>
+                    </svg>
+                    <span>广州</span>
+                </div>
+
+            </div>
+        </section>
+        <section>
+                <h2>其他</h2>
+                <div class="detail contact">
+                    <div class="item">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-GitHub"></use>
+                        </svg>
+                        <a href="https://github.com/LuoYupeng"><span>Github</span></a>
+                    </div>
+                    <div class="item">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-boke1-copy"></use>
+                        </svg>
+                        <a href="https://luoyupeng.github.io/"><span>博客</span></a>
+                    </div>
+                </div>
+        </section>
+    </aside>
+    <main>
+        <section>
+            <h2>关于我</h2>
+            <p>熟悉 HTML、DIV + CSS 页面布局，能根据设计图像素级完成页面制作，有移动端开发经验<br>
+                熟悉 HTML 5 及语义化，了解 Canvas 动画制作，掌握 CSS 3 动画、过渡效果等常用技术<br>
+                了解原生 JavaScript，会使用 ES6+ 常用规范，了解 jQuery 常用 API 及思想<br>
+                了解 Vue 常用功能，理解如生命周期、组件、数据响应式等概念，能够使用 Vue 上手开发项目<br>
+                熟悉模块化、工程化开发流程，了解Webpack配置<br>
+                了解 HTTP 相关知识，使用 VsCode、WebStorm、Sass、Git 等工具开发
+            </p>
+        </section>
+
+
+        <section>
+            <h2>项目经历</h2>
+            <div class="item">
+                <h3>仿-Vue开发去哪儿网App手机核心页面</h3>
+                <ul>
+                    <li>项目介绍：采用Webpack打包工具，Vue开发复原去哪儿App核心页面单页面应用 <br>
+                        由axios负责数据请求，Vue-router负责路由转发，Vuex实现状态管理 <br>
+                        组件化自适应布局，代码，简洁，易维护
+                    </li>
+                    <li>技术栈：vue、vue-router、vuex、webpack、es6、stylus</li>
+                    <li>项目源码:<a href="https://github.com/LuoYupeng/travel">点击查看</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>小狐狸动画展示</h3>
+                <ul>
+                    <li>项目介绍：使用纯原生 JS 开发，可以动态显示 CSS 画一个小狐狸过程的作品。<br>
+                        该作品主要思路是通过间隔计时器遍历预先设置在 preview标签内代码，将其一个个显示在页面上，并在 style 标签上作同样处理，以使代码 CSS 生效。此外，实现了CSS高亮效果及调速功能。</li>
+                    <li>项目源码:https://github.com/LuoYupeng/pure-css-fox</li>
+                    <li>预览项目: <a href="https://luoyupeng.github.io/pure-css-fox/">点击查看</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>简易在线随心画</h3>
+                <ul>
+                    <li>项目介绍： 这是一个可以提供在PC及手机端在线画画、橡皮擦、画笔调色、画作删除等功能的画板，并支持画作下载。<br>
+                        使用纯原生JS开发，主要利用 HTML 5 的 Canvas API。 </li>
+                    <li>项目源码:https://github.com/LuoYupeng/yourCanvas</li>
+                    <li>预览项目: <a href="https://luoyupeng.github.io/yourCanvas/">点击查看</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>个人定制键盘导航页</h3>
+                <ul>
+                    <li>项目介绍： 使用纯原生 JS开发，可指定键盘控制跳转指定页面的导航页。<br>
+                        利用LocalStorage控制缓存，实现本地缓存指定的操作。</li>
+                    <li>项目源码:https://github.com/LuoYupeng/bookMarksNav-demo</li>
+                    <li>预览项目: <a href="https://luoyupeng.github.io/bookMarksNav-demo/">点击查看</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>教育经历</h2>
+            <div class="item">
+                <h3>仲恺农业工程学院</h3>
+                <p>本科 2010-2014</p>
+            </div>
+        </section>
+    </main>
+</div>
+
+
+</body>
+</html>
