@@ -146,7 +146,7 @@
             min-height: calc(100vh - 162px);
         }
 
-        @media (max-width: 768px) {
+        @media screen and(max-width: 768px) {
             *{
                 margin:0;
                 padding:0;
@@ -163,6 +163,16 @@
             aside .avatar img {
                 width: 100px;
                 height: 100px;
+            }
+            .contact img{
+                width: 19%;
+            }
+        }
+        @media print {
+            body {
+                background-color:#FFFFFF;
+                margin: 0mm 0mm 0mm 0mm;
+
             }
         }
 
