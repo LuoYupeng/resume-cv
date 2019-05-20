@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
     <title>罗宇鹏-个人简历</title>
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_908787_kekc8lrkg7e.css">
     <script src="//at.alicdn.com/t/font_1201363_jllihqp5nnb.js"></script>
@@ -137,12 +137,21 @@
             margin-left: 10px;
         }
 
+        .contact img{
+            width: 100%;
+        }
+
         main {
             flex: 1;
             min-height: calc(100vh - 162px);
         }
 
         @media (max-width: 768px) {
+            *{
+                margin:0;
+                padding:0;
+            }
+            
             header {
                 padding-top: 20px;
                 padding-bottom: 90px;
@@ -163,6 +172,7 @@
             fill: currentColor;
             overflow: hidden;
         }
+
 
     </style>
 </head>
@@ -264,6 +274,12 @@
                         <a href="https://luoyupeng.github.io/"><span>博客</span></a>
                     </div>
                 </div>
+        </section>
+        <section>
+            <h2>微信二维码</h2>
+            <div class="detail contact">
+                <img src="https://i.loli.net/2019/05/21/5ce2e5529c88810721.jpeg" >
+            </div>
         </section>
     </aside>
     <main>
